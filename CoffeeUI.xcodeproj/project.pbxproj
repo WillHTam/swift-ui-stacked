@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		3D7CB85E23A9B8C000D43D9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB85D23A9B8C000D43D9C /* AppDelegate.swift */; };
 		3D7CB86023A9B8C000D43D9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB85F23A9B8C000D43D9C /* SceneDelegate.swift */; };
-		3D7CB86223A9B8C000D43D9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB86123A9B8C000D43D9C /* ContentView.swift */; };
+		3D7CB86223A9B8C000D43D9C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB86123A9B8C000D43D9C /* Home.swift */; };
 		3D7CB86423A9B8C100D43D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CB86323A9B8C100D43D9C /* Assets.xcassets */; };
 		3D7CB86723A9B8C100D43D9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CB86623A9B8C100D43D9C /* Preview Assets.xcassets */; };
 		3D7CB86A23A9B8C100D43D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CB86823A9B8C100D43D9C /* LaunchScreen.storyboard */; };
 		3D7CB87523A9B8C100D43D9C /* CoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB87423A9B8C100D43D9C /* CoffeeUITests.swift */; };
+		3D7CB88023A9B93B00D43D9C /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D7CB87F23A9B93B00D43D9C /* drinks.json */; };
+		3D7CB88223A9B94B00D43D9C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB88123A9B94B00D43D9C /* Data.swift */; };
+		3D7CB88423A9C2D100D43D9C /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB88323A9C2D100D43D9C /* Drink.swift */; };
+		3D7CB88623A9C68A00D43D9C /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB88523A9C68A00D43D9C /* DrinkItem.swift */; };
+		3D7CB88823A9E6FB00D43D9C /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB88723A9E6FB00D43D9C /* DrinkRow.swift */; };
+		3D7CB88A23A9EE0C00D43D9C /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7CB88923A9EE0C00D43D9C /* DrinkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +36,7 @@
 		3D7CB85A23A9B8C000D43D9C /* CoffeeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7CB85D23A9B8C000D43D9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D7CB85F23A9B8C000D43D9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D7CB86123A9B8C000D43D9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D7CB86123A9B8C000D43D9C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3D7CB86323A9B8C100D43D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7CB86623A9B8C100D43D9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D7CB86923A9B8C100D43D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,12 @@
 		3D7CB87023A9B8C100D43D9C /* CoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7CB87423A9B8C100D43D9C /* CoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUITests.swift; sourceTree = "<group>"; };
 		3D7CB87623A9B8C100D43D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7CB87F23A9B93B00D43D9C /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = SOURCE_ROOT; };
+		3D7CB88123A9B94B00D43D9C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3D7CB88323A9C2D100D43D9C /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		3D7CB88523A9C68A00D43D9C /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		3D7CB88723A9E6FB00D43D9C /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		3D7CB88923A9EE0C00D43D9C /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +93,16 @@
 			children = (
 				3D7CB85D23A9B8C000D43D9C /* AppDelegate.swift */,
 				3D7CB85F23A9B8C000D43D9C /* SceneDelegate.swift */,
-				3D7CB86123A9B8C000D43D9C /* ContentView.swift */,
+				3D7CB86123A9B8C000D43D9C /* Home.swift */,
+				3D7CB88923A9EE0C00D43D9C /* DrinkDetail.swift */,
+				3D7CB88723A9E6FB00D43D9C /* DrinkRow.swift */,
+				3D7CB88523A9C68A00D43D9C /* DrinkItem.swift */,
 				3D7CB86323A9B8C100D43D9C /* Assets.xcassets */,
 				3D7CB86823A9B8C100D43D9C /* LaunchScreen.storyboard */,
 				3D7CB86B23A9B8C100D43D9C /* Info.plist */,
+				3D7CB87F23A9B93B00D43D9C /* drinks.json */,
+				3D7CB88123A9B94B00D43D9C /* Data.swift */,
+				3D7CB88323A9C2D100D43D9C /* Drink.swift */,
 				3D7CB86523A9B8C100D43D9C /* Preview Content */,
 			);
 			path = CoffeeUI;
@@ -190,6 +208,7 @@
 			files = (
 				3D7CB86A23A9B8C100D43D9C /* LaunchScreen.storyboard in Resources */,
 				3D7CB86723A9B8C100D43D9C /* Preview Assets.xcassets in Resources */,
+				3D7CB88023A9B93B00D43D9C /* drinks.json in Resources */,
 				3D7CB86423A9B8C100D43D9C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +229,12 @@
 			files = (
 				3D7CB85E23A9B8C000D43D9C /* AppDelegate.swift in Sources */,
 				3D7CB86023A9B8C000D43D9C /* SceneDelegate.swift in Sources */,
-				3D7CB86223A9B8C000D43D9C /* ContentView.swift in Sources */,
+				3D7CB88823A9E6FB00D43D9C /* DrinkRow.swift in Sources */,
+				3D7CB86223A9B8C000D43D9C /* Home.swift in Sources */,
+				3D7CB88423A9C2D100D43D9C /* Drink.swift in Sources */,
+				3D7CB88223A9B94B00D43D9C /* Data.swift in Sources */,
+				3D7CB88623A9C68A00D43D9C /* DrinkItem.swift in Sources */,
+				3D7CB88A23A9EE0C00D43D9C /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
